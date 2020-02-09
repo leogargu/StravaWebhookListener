@@ -11,7 +11,7 @@ This lambda function requires dependencies not available in the AWS SDK for Pyth
    ```
    deactivate
    cd ~/.virtualenvs/strava-python3/lib/python3.7/site-packages/
-   zip -r9 ../../../../function_deps.zip .
+   zip -r9 path/to/lambda/project/function_deps.zip .
    ```
 
 1. Copy the zip file (keep the original for reference) and add the new lambda function:
